@@ -1,13 +1,29 @@
-#journal-entry-form{
+#journal-entry-form-container{
     display: flex;
     flex-direction: column;
     width: 20vw;
+    justify-content: center;
+    align-items: center;
 }
-#journal-form{
-    display: flex;
-    flex-direction: column;
-}
+
 #form-fieldset{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+label{
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+input, select, textarea{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+#submit-entry-btn{
+    margin-top: 1em;
 }
