@@ -1,0 +1,13 @@
+#journal-entry-form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+#journal-form{
+    display: flex;
+    flex-direction: column;
+}
+#form-fieldset{
+    display: flex;
+    flex-direction: column;
+}

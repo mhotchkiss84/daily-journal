@@ -5,9 +5,30 @@
     <meta name="viewport content=width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>My Daily Jornal</title>
   </head>
   <body>
+    <div id="journal-entry-form">
+      <form id="journal-form">
+        <fieldset id="form-fieldset">
+          <label for="date">Date of Entry</label>
+          <input type="date" name="date" id="date">
+          <label for="concepts-covered">Concepts Covered</label>
+          <input type="text" name="concepts-covered" id="concepts-covered">
+          <label for="journal-entry">Entry</label>
+          <textarea name="journal-entry" id="journal-entry" cols="30" rows="10"></textarea>
+          <label for="mood">Mood</label>
+          <select name="mood" id="mood">
+            <option value="excited">Excited</option>
+            <option value="happy">Happy</option>
+            <option value="okay">Okay</option>
+            <option value="nervous">Nervous</option>
+            <option value="unhappy">Unhappy</option>
+          </select>
+        </fieldset>
+      </form>
+      <button id="submit-entry-btn">Submit Journal Entry</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
