@@ -1,3 +1,18 @@
 {
-	"journal-entry": []
+  "journal-entry": [
+    {
+      "date": "2020-05-26",
+      "concepts": "Test",
+      "entry": "teeee",
+      "mood": "excited",
+      "id": 1
+    },
+    {
+      "date": "2020-05-19",
+      "concepts": "Test Concept",
+      "entry": "sfasfasf",
+      "mood": "excited",
+      "id": 2
+    }
+  ]
 }
