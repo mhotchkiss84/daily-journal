@@ -1,5 +1,8 @@
-import fetchFunctions from "./fetch.js"
-
+import fetchFunctions from './fetch.js';
+// Creating a function to clear the screen
+const clearScreen = () => {
+	document.querySelector(`#entry-container`).innerHTML = ``;
+};
 const inputFunctions = {
 	// Creating a function to grab all the users input and put them into an object
 	grabUserInput: () => {
@@ -13,7 +16,11 @@ const inputFunctions = {
 	// Creating a function to clear the screen
 	clearScreen: () => {
 		document.querySelector(`#entry-container`).innerHTML = ``;
+	},
+	refreshPage: () => {
+		clearScreen();
+		fetchFunctions.fetchEntries();
 	}
 };
 
-export default inputFunctions
+export default inputFunctions;
