@@ -1,5 +1,6 @@
+// Importing input functions
 import inputFunction from './input.js';
-
+// Creating an object to store fetch functions
 const fetchFunctions = {
 	// Creating a function to get the entries from the JSON database
 	fetchEntries: () => {
@@ -36,7 +37,5 @@ const fetchFunctions = {
 		});
 	}
 };
-
+// Exporting fetch functions
 export default fetchFunctions;
-
-// Create delete options
